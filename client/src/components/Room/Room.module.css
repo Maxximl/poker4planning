@@ -1,0 +1,77 @@
+.roomWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.gridContainer {
+    grid-gap: 30rem;
+    display: inline-grid;
+    grid-template-areas:
+        "left top right"
+        "left table right"
+        "left bottom right";
+    grid-template-columns: 100rem 1fr 100rem;
+    grid-template-rows: auto 1fr auto;
+    margin: 0 auto;
+    min-height: 200px;
+    width: auto;
+}
+
+.topTable {
+    grid-area: top;
+    height: 100rem;
+}
+
+.leftTable {
+    grid-area: left;
+    flex-direction: column-reverse;
+}
+
+.rightTable {
+    grid-area: right;
+    flex-direction: column-reverse;
+}
+
+.bottomTable {
+    grid-area: bottom;
+}
+
+.gridCell {
+    display: flex;
+    justify-content: space-around;
+}
+
+.roomMiddle {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 66px;
+}
+
+.taskCaption {
+    color: rgb(3 11 114 / 85%);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.23;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.taskNumber {
+    color: rgb(3 11 114 / 85%);
+    font-size: 38px;
+}
+
+.cardSelector {
+    height: 128rem;
+    margin-bottom: 50px;
+}

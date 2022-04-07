@@ -1,0 +1,22 @@
+
+.outerContainer {
+    margin: auto;
+}
+
+.buttonLink {
+    text-decoration: none;
+}
+
+.innerContainer {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #a6aaf3;
+    border-radius: 30px;
+}

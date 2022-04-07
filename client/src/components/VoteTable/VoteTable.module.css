@@ -1,0 +1,17 @@
+.container {
+    position: absolute;
+    right: 60px;
+    width: 300rem;
+}
+
+.average {
+    margin-top: 30px;
+    font-size: 30rem;
+    font-weight: 700;
+}
+
+.bigFont {
+    font-size: 20rem;
+    font-weight: 700;
+
+}

@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardBody {
+    width: 50rem;
+    height: 80rem;
+    /* border: 2px solid #649ee4; */
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #236eca;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #dfe6e6;
+
+}
+
+.name {
+    text-align: center;
+    color: #463d15;
+    font-weight: 600;
+    font-size: 16rem;
+}
+
+.cover {
+    align-items: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: white;
+
+    background: #3993ff;
+    background: linear-gradient(45deg,#3993ff 12%,transparent 0,transparent 88%,#3993ff 0),linear-gradient(135deg,transparent 37%,#1a7bf2 0,#1a7bf2 63%,transparent 0),linear-gradient(45deg,transparent 37%,#3993ff 0,#3993ff 63%,transparent 0),#74b3ff;
+    background-size: 17px 17px;
+    border: 1px solid rgba(168,174,178,.4);
+    box-shadow: 0 2px 4px rgb(168 174 178 / 40%);
+    display: flex;
+    height: 80rem;
+    justify-content: center;
+    overflow: hidden;
+    width: 50rem;
+}

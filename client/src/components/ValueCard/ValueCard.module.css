@@ -1,0 +1,36 @@
+.container {
+    width: 80rem;
+    height: 120rem;
+    border: 2px solid #3993ff;
+    cursor: pointer;
+    outline: 0;
+    transition: all .09s linear;
+    margin: 0 10px;
+    border-radius: 16rem;
+    font-size: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3993ff;
+    font-weight: 700;
+}
+
+.container:hover {
+    background: #6aa8f3;
+    color: aliceblue;
+    transform: translateY(-10px)
+}
+
+.selected {
+    background: #3993ff;
+    color: aliceblue;
+    transform: translateY(-10px)
+}
+
+.input {
+    width: 80%;
+    color: #3993ff;
+    font-weight: 700;
+    font-size: 28rem;
+    text-align: center;
+}

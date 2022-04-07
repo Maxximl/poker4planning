@@ -1,0 +1,15 @@
+.container {
+    width: 400rem;
+    height: 200rem;
+    background-color: aquamarine;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    background-image: url('./img/poker.jpg');
+    background-size: cover;
+}
+
+.showButton {
+    margin: auto;
+}
+
