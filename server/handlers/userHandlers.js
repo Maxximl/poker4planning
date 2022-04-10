@@ -80,6 +80,11 @@ module.exports = (io, socket) => {
         }
         getUsers()
       }
+
+      const notificateAll = () => {
+        io.in(socket.roomId).emit('notificate')
+        console.log("notificate")
+      }
     
       // регистрируем обработчики
       socket.on('get', getAll)
@@ -93,6 +98,7 @@ module.exports = (io, socket) => {
       socket.on('taskName:get', getTaskName)
       socket.on('taskName:set', setTaskName)
       socket.on('player:kick', kickPlayer)
+      socket.on('all:notification', notificateAll)
     } catch (error) {
       console.log(error)
     }
